@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Vasttiono Hanggara</div>    
+        <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Vasttiono Hanggara</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#About" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/download.png" alt="Vasttiono Hanggara profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__title">Hello, I'm</p>
+            <h1 class="title">Vasttiono Hanggara</h1>
+            <p class="section__text__p2">CyberSecurity Enthusiast</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Resume_Chef.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#Contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://linkedin.com/'"/>
+                <img src="./assets/github.png" alt="My github profile" class="icon" onclick="location.href='https://github.com/'"/>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know me</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/fw.jpeg" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="experience">
+                    <img src="./assets/fw.jpeg" alt="Experience icon" class="icon" />
+                    <h3>Experience</h3>
+                    <p>25++ years<br />CyberSecurity Enthusiast</p>
+                </div>
+                <div class="education">
+                    <img src="./assets/damn.jpeg" alt="Education icon" class="icon" />
+                    <h3>Education</h3>
+                    <p>WWE HallOfFame 2015<br />heavyweight MMA Champion</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    I have worked in WWE and MMA for over 25 years, and now I'm a CyberSecurity Enthusiast and also a professional chef. I'm passionate about technology and always eager to learn new things. I also love cooking and always try to create new recipes.
+                </p>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow" class="arrow" onclick="location.href='./#Experience'" />
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

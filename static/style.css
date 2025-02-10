@@ -1,0 +1,267 @@
+.section__pic-container {
+    height: 80%;
+    gap: 4rem;
+}
+.section-container {
+    border-color: rgb(163, 163, 163);
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 2rem;
+    background: white;
+    padding: 1.5rem;
+}
+.experience, .education {
+    text-align: center;
+    border-color: rgb(163, 163, 163);
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 2rem;
+    background: white;
+    flex: 1;
+    padding: 1.5rem;
+}
+.details-container {
+    height: 2rem;
+    width: 2rem;
+    bottom: 2.5rem;
+    right: -5rem;
+    position: absolute;
+}
+.arrow {
+    border-radius: 2rem;
+}
+.about-pic {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.about-container {
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+.about-details-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+.text-container {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.about-container {
+    text-align: center;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: grid;
+}
+.about-details-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+.about__container {
+    position: relative;
+}
+#about {
+    gap: 1rem;
+}
+.btn-container {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+.btn-color-2:hover {
+    color: black;
+    background: none;
+}
+.btn-color-2 {
+    background: rgb(0, 0, 0);
+}
+.btn-color-1 {
+    color: white;
+    background: rgb(53, 53, 53);
+}
+.btn-color-1:hover, .btn-color-2:hover {
+    color: white;
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+.btn-color-1, .btn-color-2 {
+    border-radius: 2rem;
+    width: 8rem;
+    padding: 1rem;
+    transition: all 300ms ease;
+    font-weight: 600;
+}
+.btn {
+    gap: 1rem;
+    justify-content: center;
+    display: flex;
+}
+.btn-container {
+    height: 2rem;
+    cursor: pointer;
+}
+.icon {
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+    display: flex;
+}
+#social-container {
+    text-align: center;
+    font-size: 3rem;
+}
+.title {
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+.section__text__p2 {
+    text-align: center;
+}
+.section__text__p1 {
+    font-weight: 600;
+}
+.section__text p {
+    text-align: center;
+    align-self: center;
+}
+.section__text {
+    margin: auto 0;
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+.section__pic-container {
+    height: 80vh;
+    gap: 5rem;
+    justify-content: center;
+    display: flex;
+}
+#profile {
+    display: flex;
+}
+.section-container {
+    min-height: fit-content;
+    box-sizing: border-box;
+    margin: 0 10rem;
+    height: 96vh;
+    padding-top: 4vh;
+}
+section {
+    transform: none;
+}
+.hamburger-icon span:last-child {
+    opacity: 1;
+}
+.hamburger-icon span:nth-child(2) {
+    opacity: 1;
+    transform: none;
+}
+.hamburger-icon span:first-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+.hamburger-icon.open span:last-child {
+    opacity: 0;
+}
+.hamburger-icon.open span:nth-child(2) {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+.hamburger-icon.open span:first-child {
+    max-height: 300px;
+}
+.menu-links.open {
+    list-style: none;
+}
+.menu-links li {
+    transition: all 300ms ease-in-out;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+.menu-links a {
+    transition: all 300ms ease-in-out;
+}
+.menu-links {
+    overflow: hidden;
+    max-height: 0;
+    width: fit-content;
+    background-color: white;
+    right: 0;
+    top: 100%;
+    position: absolute;
+}
+.menu-links {
+    transition: all 300ms ease-in-out;
+    background-color: black;
+}
+.hamburger-icon span {
+    width: 100%;
+    height: 2px;
+}
+.hamburger-icon span {
+    cursor: pointer;
+    width: 30px;
+    height: 24px;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+.hamburger-icon {
+    display: inline-block;
+    position: relative;
+}
+.hamburger-menu {
+    display: none;
+}
+#hamburger-nav {
+    cursor: default;
+}
+.logo:hover {
+    font-size: 2rem;
+}
+.logo {
+    text-decoration-color: rgb(181, 181, 181);
+    text-underline-offset: 1rem;
+    text-decoration: underline;
+    color: grey;
+}
+a:hover {
+    text-decoration-color: white;
+    text-decoration: none;
+    color: black;
+}
+a {
+    font-size: 1.5rem;
+}
+.nav-links {
+    list-style: none;
+    gap: 2rem;
+}
+.nav-links {
+    height: 17vh;
+    align-items: center;
+    justify-content: space-around;
+}
+nav {
+    display: flex;
+}
+.nav-links {
+    transition: all 300ms ease;
+}
+a, .btn {
+    color: rgb(85, 85, 85);
+}
+p {
+    scroll-behavior: smooth;
+}
+html {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+}
